@@ -57,15 +57,15 @@ public class JacksonStanton00 {
 
 
 
-            if (carArr[i].length() % 2 == 0) {}
+            if (carArr[i].length() % 2 == 0) {
                 System.out.println(carArr[i]);
                 System.out.println("This string has an even length.");
 
 
-            }else {
-            System.out.println(carArr[i]);
-            System.out.println("This String has an even length")
-        
+            } else {
+                System.out.println(carArr[i]);
+                System.out.println("This String has an even length");
+            }
         }
 
 
