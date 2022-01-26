@@ -14,15 +14,22 @@ public class JacksonStanton00 {
             // Statement 3 is executed EACH TIME THE LOOP RUNS.
 
         }
-
         
-        for (i = 0; i <carArr.length(); i++) {
-
-
-        }
-        */
-
+        
         String[] carArr  = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"};
+        System.out.println(carArr[3]);
+        // ONCE CREATED YOU CANNOT CHANGE THE SIZE OF AN ARRAY. IT IS FORBIDDEN!
+        carArr[0] =  "Volkswagen Passat";
+        
+
+
+        for ( int i = 0; i <carArr.length; i++) {
+            System.out.println(i);
+            System.out.println(carArr[i]);
+        }
+    
+
+        // Enhanced For Loop
         for (String eachElement : carArr ) {
             // Code to execute.
             System.out.println(eachElement);
@@ -40,6 +47,27 @@ public class JacksonStanton00 {
             System.out.println(eachElement);
 
         }
+        */
+        String[] carArr  = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"};
+        System.out.println(carArr[3]);
+        // ONCE CREATED YOU CANNOT CHANGE THE SIZE OF AN ARRAY. IT IS FORBIDDEN!
+        carArr[0] =  "Volkswagen Passat";
+        
+        for (int i = 0; i < carArr.length; i++) {
+
+
+
+            if (carArr[i].length() % 2 == 0) {}
+                System.out.println(carArr[i]);
+                System.out.println("This string has an even length.");
+
+
+            }else {
+            System.out.println(carArr[i]);
+            System.out.println("This String has an even length")
+        
+        }
+
 
 
     }
